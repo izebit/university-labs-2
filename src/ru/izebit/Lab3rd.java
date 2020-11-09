@@ -4,7 +4,7 @@ package ru.izebit;
  * @author <a href="mailto:izebit@gmail.com">Artem Konovalov</a> <br/>
  * Date: 20.10.2020
  */
-public class Lab3th {
+public class Lab3rd {
     public static int solutions(int a,
                                 int b,
                                 int c) {
