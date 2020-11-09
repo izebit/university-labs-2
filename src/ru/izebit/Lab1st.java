@@ -45,10 +45,7 @@ public class Lab1st {
     }
 
     public static long addUpTo(int number) {
-        long result = 0;
-        for (int i = 0; i <= number; i++)
-            result += i;
-        return result;
+        return (long) (((1 + number) / 2.0) * number);
     }
 
     public static double nextEdge(double a, double b) {
