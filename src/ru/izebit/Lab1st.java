@@ -59,7 +59,7 @@ public class Lab1st {
     public static boolean abcmath(int a, int b, int c) {
         int value = a;
         for (int i = 1; i <= b; i++)
-            value *= 2;
+            value += b;
         return value % c == 0;
     }
 
