@@ -49,7 +49,7 @@ public class Lab1st {
     }
 
     public static double nextEdge(double a, double b) {
-        return Math.sqrt(a * a + b * b);
+        return (a + b) - 1;
     }
 
     public static int sumOfCubes(int[] numbers) {
