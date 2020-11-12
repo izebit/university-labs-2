@@ -54,7 +54,7 @@ public class Lab5th {
                 // по горизонтали
                 return currentLocation.x == targetLocation.x || currentLocation.y == targetLocation.y;
             case "ферзь":
-                //по диагонали и горизонатали
+                //по диагонали и горизонтали
                 return canMove("слон", currentLocationStr, targetLocationStr) ||
                         canMove("ладья", currentLocationStr, targetLocationStr);
             case "король":
