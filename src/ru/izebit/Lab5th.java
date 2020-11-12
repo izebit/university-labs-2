@@ -46,7 +46,9 @@ public class Lab5th {
 
         switch (chessPiece) {
             case "конь":
-                return Math.abs(currentLocation.x - targetLocation.x) + Math.abs(currentLocation.y - targetLocation.y) == 3;
+                int x = Math.abs(currentLocation.x - targetLocation.x);
+                int y = Math.abs(currentLocation.y - targetLocation.y);
+                return x + y == 3 && x != 0 && y != 0;
             case "слон":
                 //по диагонали
                 return Math.abs(currentLocation.x - targetLocation.x) == Math.abs(currentLocation.y - targetLocation.y);
